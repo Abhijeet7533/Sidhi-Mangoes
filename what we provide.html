@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Responsive Bootstrap4 Shop Template, Created by Imran Hossain from https://imransdesign.com/">
+
+	<!-- title -->
+	<title>Sidhi Mangoes</title>
+
+	<!-- favicon -->
+	<link rel="shortcut icon" type="image/png" href="assets/img/logo-footer.png">
+	<!-- google font -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+	<!-- fontawesome -->
+	<link rel="stylesheet" href="assets/css/all.min.css">
+	<!-- bootstrap -->
+	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+	<!-- owl carousel -->
+	<link rel="stylesheet" href="assets/css/owl.carousel.css">
+	<!-- magnific popup -->
+	<link rel="stylesheet" href="assets/css/magnific-popup.css">
+	<!-- animate css -->
+	<link rel="stylesheet" href="assets/css/animate.css">
+	<!-- mean menu css -->
+	<link rel="stylesheet" href="assets/css/meanmenu.min.css">
+	<!-- main style -->
+	<link rel="stylesheet" href="assets/css/main.css">
+	<!-- responsive -->
+	<link rel="stylesheet" href="assets/css/responsive.css">
+
+	<style>
+		 .sticky-icon {
+        z-index: 1;
+        position: fixed;
+        top: 15%;
+        left: 0%;
+        width: 220px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sticky-icon a {
+        transform: translate(-160px, 0px);
+        border-radius: 0px 50px 50px 0px;
+        text-align: right;
+        margin: 2px;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 10px;
+        font-size: 22px;
+        font-family: 'Oswald', sans-serif;
+        transition: all 0.8s;
+    }
+
+    .sticky-icon a:hover {
+        color: #FFF;
+        transform: translate(0px, 0px);
+    }
+
+    .sticky-icon a:hover i {
+        transform: rotate(360deg);
+    }
+
+    .Facebook {
+        background-color: #2C80D3;
+        color: #FFF;
+    }
+
+    .Youtube {
+        background-color: #fa0910;
+        color: #FFF;
+    }
+
+    .Twitter {
+        background-color: #53c5ff;
+        color: #FFF;
+    }
+
+    .Instagram {
+        background-color: #c247cd;
+        color: #FFF;
+    }
+
+    .Google {
+        background-color: #d34836;
+        color: #FFF;
+    }
+
+    .sticky-icon a i {
+        background-color: #FFF;
+        height: 40px;
+        width: 40px;
+        color: #000;
+        text-align: center;
+        line-height: 40px;
+        border-radius: 50%;
+        margin-right: 2px;
+        transition: all 0.5s;
+    }
+
+    .sticky-icon a i.fa-facebook-f {
+        background-color: #FFF;
+        color: #2C80D3;
+    }
+
+    .sticky-icon a i.fa-google-plus-g {
+        background-color: #FFF;
+        color: #d34836;
+    }
+
+    .sticky-icon a i.fa-instagram {
+        background-color: #FFF;
+        color: #FD1D1D;
+    }
+
+    .sticky-icon a i.fa-youtube {
+        background-color: #FFF;
+        color: #fa0910;
+    }
+
+    .sticky-icon a i.fa-twitter {
+        background-color: #FFF;
+        color: #53c5ff;
+    }
+
+    .fas fa-shopping-cart {
+        background-color: #FFF;
+    }
+
+    #myBtn {
+        height: 50px;
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 30px;
+        z-index: 99;
+        text-align: center;
+        padding: 10px;
+        text-align: center;
+        line-height: 40px;
+        border: none;
+        outline: none;
+        background-color: #1e88e5;
+        color: white;
+        cursor: pointer;
+        border-radius: 50%;
+    }
+
+    .fa-arrow-circle-up {
+        font-size: 30px;
+    }
+
+    #myBtn:hover {
+        background-color: #555;
+    }
+	</style>
+
+</head>
+<body>
+	
+	<!--PreLoader-->
+    <div class="loader">
+        <div class="loader-inner">
+            <div class="circle"></div>
+        </div>
+    </div>
+    <!--PreLoader Ends-->
+	
+	<!-- header -->
+	<div class="top-header-area" id="sticker">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-sm-12 text-center">
+					<div class="main-menu-wrap">
+						<!-- logo -->
+						<div class="site-logo">
+							<a href="index_2.html">
+								<img src="assets/img/logo-footer.png" style="height: 80px;width: 100%;">
+							</a>
+						</div>
+						<!-- logo -->
+
+						<!-- menu start -->
+						<nav class="main-menu">
+							<ul>
+								<li><a href="index_2.html" style="margin-top: 20px;">Home</a>
+								</li>
+								<li class="current-list-item"><a href="what we provide.html">What We Provide</a></li>
+								<li><a href="gallery.html">Gallery</a></li>
+								<li><a href="about.html">About Us</a></li>
+								<li><a href="contact.html">Contact</a></li>
+								<li><a href="how can order.html">How Can Order</a></li>
+								<li>
+									<div class="header-icons">
+										<a class="shopping-cart" href="cart.html" style="margin-top: 20px;"><i class="fas fa-shopping-cart"></i></a>
+										<a class="mobile-hide search-bar-icon" href="#" style="margin-top: 20px;"><i class="fas fa-search"></i></a>
+									</div>
+								</li>
+							</ul>
+						</nav>
+						<a class="mobile-show search-bar-icon" href="#"><i class="fas fa-search"></i></a>
+						<div class="mobile-menu"></div>
+						<!-- menu end -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end header -->
+
+	<!--Start Sticky Icon-->
+<div class="sticky-icon">
+    <a href="https://www.instagram.com/?hl=en" class="Instagram" style="margin-top: 20px;">  Instagram <i class="fab fa-instagram"></i></a>
+    <a href="https://www.facebook.com/" class="Facebook"> Facebook <i class="fab fa-facebook-f"> </i> </a>
+    <a href="https://aboutme.google.com/u/0/?referer=gplus" class="Google"> Google + <i class="fab fa-google-plus-g"> </i></a>
+    <a href="https://www.youtube.com/" class="Youtube"> Youtube <i class="fab fa-youtube"></i></a>
+    <a href="https://twitter.com/login" class="Twitter"> Twitter <i class="fab fa-twitter"> </i> </a>
+</div>
+<!--End Sticky Icon-->
+
+	<!-- search area -->
+	<div class="search-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<span class="close-btn"><i class="fas fa-window-close"></i></span>
+					<div class="search-bar">
+						<div class="search-bar-tablecell">
+							<h3>Search For:</h3>
+							<input type="text" placeholder="Keywords">
+							<button type="submit">Search <i class="fas fa-search"></i></button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end search arewa -->
+	
+	<!-- breadcrumb-section -->
+	<div class="breadcrumb-section breadcrumb-bg">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 offset-lg-2 text-center">
+					<div class="breadcrumb-text">
+						<p>We sale fresh fruits</p>
+						<h1>What We Provide</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end breadcrumb section -->
+
+    <!-- About Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="row g-5">
+               
+                <div class="col-lg-12 wow fadeIn" data-wow-delay="0.5s">
+                    
+                    <p class="mb-4">We have stores in big cities like Mumbai, Pune, Bangalore. We can also provide home delivery service. </p>
+                    <p class="mb-5">Customers who buy mangoes from us are never disappointed, because we provide good quality mangoes to them. Once you eat our mango, you will keep eating.</p>
+                    
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+    <!-- About Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="row g-5">
+               
+                <div class="col-lg-12 wow fadeIn" data-wow-delay="0.5s">
+                    <h1 class="mb-5"><span class="text-uppercase orange-text">Carbide & Chemical Free</h1>
+                    <p class="mb-5" style="text-align: justify;">Carbide & Chemical Free means that the fruits, vegetables, or other food products are cultivated and ripened naturally without using harmful artificial substances like calcium carbide, ethylene gas, or chemical preservatives. Calcium carbide is often used illegally to speed up the ripening process of fruits</p>
+
+                    <p class="mb-5" style="text-align: justify;"> such as mangoes, bananas, and papayas. However, when it reacts with moisture, it produces acetylene gas — a toxic compound that can cause serious health problems like ulcers, headaches, dizziness, and even cancer if consumed regularly. Similarly, chemical pesticides and fertilizers used during farming can leave harmful residues on food, affecting the liver, kidneys, and nervous system over time.</p>
+
+                    <p class="mb-5" style="text-align: justify;"> Carbide & chemical-free produce is ripened using natural processes such as ethylene released by the fruits themselves, or safe biological methods like temperature control or ethylene generators approved for food use. These methods ensure that the fruits and vegetables maintain their original flavor, nutritional value, and freshness.</p>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+    <!-- About Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="row g-5">
+               
+                <div class="col-lg-12 wow fadeIn" data-wow-delay="0.5s">
+                    <h1 class="mb-5"><span class="text-uppercase orange-text">Hails from The Heart of Devgad</h1>
+                    <p class="mb-5" style="text-align: justify;">“Hails from the Heart of Devgad” is a phrase that highlights the origin and authenticity of a product, especially famous ones like Devgad Alphonso mangoes, which come from the Devgad region in Maharashtra, India. Devgad is known for its rich red soil, perfect coastal climate, and natural conditions that make it one of the best places in the world to grow premium-quality mangoes.</p>
+
+                    <p class="mb-5" style="text-align: justify;"> When something “hails from the heart of Devgad,” it means it comes directly from the core area of Devgad — where the environment, traditional farming methods, and the expertise of local farmers combine to produce superior taste and quality. The phrase signifies purity, natural origin, and regional pride.</p>
+
+                    <p class="mb-5" style="text-align: justify;"> Products from this region are often free from harmful chemicals and are cultivated using sustainable practices that preserve the natural sweetness and aroma unique to Devgad produce. Thus, “Hails from the Heart of Devgad” not only represents a geographical origin but also a mark of authenticity, quality, and cultural heritage associated with Devgad’s famous agricultural excellence.</p>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+    <!-- About Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="row g-5">
+               
+                <div class="col-lg-12 wow fadeIn" data-wow-delay="0.5s">
+                    <h1 class="mb-5"><span class="text-uppercase orange-text">The Impeccable Aroma</h1>
+                    <p class="mb-5" style="text-align: justify;">“The Impeccable Aroma” refers to a fragrance or scent that is absolutely perfect, pure, and captivating. The word impeccable means flawless or without any fault, while aroma refers to a pleasant, distinctive smell—often used to describe foods, fruits, flowers, or natural products.</p>
+
+                    <p class="mb-5" style="text-align: justify;"> When something is said to have “The Impeccable Aroma,” it means its fragrance is naturally rich, soothing, and unmatched in quality. For example, the aroma of a perfectly ripened Devgad Alphonso mango, fresh coffee beans, or blooming jasmine flowers can be described as impeccable because it delights the senses and feels authentic.</p>
+
+                    <p class="mb-5" style="text-align: justify;"> Such an aroma usually results from natural growing conditions, traditional cultivation methods, and the absence of artificial chemicals or synthetic fragrances. It connects deeply with nature and triggers freshness, comfort, and emotional satisfaction. Therefore, “The Impeccable Aroma” symbolizes purity, authenticity, and a sensory experience that leaves a lasting impression.</p>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+     <!-- About Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="row g-5">
+               
+                <div class="col-lg-12 wow fadeIn" data-wow-delay="0.5s">
+                    <h1 class="mb-5"><span class="text-uppercase orange-text">Best Quality</h1>
+                    <p class="mb-5" style="text-align: justify;">“Best Quality” refers to the highest standard or grade of a product, showing excellence in every aspect — from its materials and production process to its final performance or taste. When something is described as being of “best quality,” it means it has been carefully made or grown using superior methods, with close attention to detail, hygiene, and durability.</p>
+
+                    <p class="mb-5" style="text-align: justify;"> In manufactured goods, it means products that are strong, reliable, and made with premium materials. The term also reflects a brand’s commitment to customer satisfaction, consistency, and trust. Achieving best quality often involves following strict quality control standards, testing for safety and performance, and ensuring that every product meets or exceeds customer expectations.</p>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+     <!-- About Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="row g-5">
+               
+                <div class="col-lg-12 wow fadeIn" data-wow-delay="0.5s">
+                    <h1 class="mb-5"><span class="text-uppercase orange-text">Organic Fruits</h1>
+                    <p class="mb-5" style="text-align: justify;">Organic Fruits are fruits that are grown naturally without the use of harmful chemical fertilizers, pesticides, or artificial ripening agents. Instead, farmers use eco-friendly and traditional farming methods such as compost, natural manure, and biological pest control to maintain soil fertility and protect the crops.</p>
+
+                    <p class="mb-5" style="text-align: justify;"> These fruits are free from synthetic chemicals, making them safer and healthier to eat. Organic farming also focuses on sustainability — preserving the natural balance of the ecosystem, protecting soil quality, and conserving water. Because they are grown naturally, organic fruits often have a richer taste, stronger aroma, and higher nutritional value compared to conventionally grown ones. They are also ripened naturally, without using substances like calcium carbide or artificial ethylene gas.</p>
+
+                    <p class="mb-5" style="text-align: justify;"> By choosing organic fruits, consumers not only support their own health but also encourage environmentally responsible farming practices that benefit future generations. In short, organic fruits represent purity, freshness, and a commitment to a cleaner, greener planet.</p>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+    <!-- About Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="row g-5">
+               
+                <div class="col-lg-12 wow fadeIn" data-wow-delay="0.5s">
+                    <h1 class="mb-5"><span class="text-uppercase orange-text">Natural Products</h1>
+                    <p class="mb-5" style="text-align: justify;">Natural Products are goods made from ingredients that come directly from nature — such as plants, minerals, or animals — without undergoing heavy chemical processing or the addition of artificial substances. These products are free from synthetic chemicals, artificial colors, preservatives, and harmful toxins.</p>
+
+                    <p class="mb-5" style="text-align: justify;"> Examples include natural food items, skincare products, herbal medicines, and eco-friendly materials that use resources like herbs, fruits, essential oils, and natural extracts. Natural products are valued for their purity, safety, and health benefits, as they retain the original nutrients and properties of their natural sources.</p>
+
+                    <p class="mb-5" style="text-align: justify;"> They are also environmentally friendly because their production and disposal cause minimal harm to the ecosystem. In food, natural products mean items grown or made without artificial additives, while in personal care, they nourish the body gently and safely. Overall, natural products promote a healthy lifestyle, support sustainable living, and reflect a balanced relationship between humans and nature.</p>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+	
+
+	
+
+
+	<!-- testimonail-section -->
+	<div class="testimonail-section mt-80 mb-150">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-10 offset-lg-1 text-center">
+					<div class="testimonial-sliders">
+						<div class="single-testimonial-slider">
+							<div class="client-avater">
+								<img src="assets/img/avaters/avatar1.png" alt="">
+							</div>
+							<div class="client-meta">
+								<h3>Saira Hakim <span>Local shop owner</span></h3>
+								<p class="testimonial-body">
+									" Sed ut perspiciatis unde omnis iste natus error veritatis et  quasi architecto beatae vitae dict eaque ipsa quae ab illo inventore Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium "
+								</p>
+								<div class="last-icon">
+									<i class="fas fa-quote-right"></i>
+								</div>
+							</div>
+						</div>
+						<div class="single-testimonial-slider">
+							<div class="client-avater">
+								<img src="assets/img/avaters/avatar2.png" alt="">
+							</div>
+							<div class="client-meta">
+								<h3>David Niph <span>Local shop owner</span></h3>
+								<p class="testimonial-body">
+									" Sed ut perspiciatis unde omnis iste natus error veritatis et  quasi architecto beatae vitae dict eaque ipsa quae ab illo inventore Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium "
+								</p>
+								<div class="last-icon">
+									<i class="fas fa-quote-right"></i>
+								</div>
+							</div>
+						</div>
+						<div class="single-testimonial-slider">
+							<div class="client-avater">
+								<img src="assets/img/avaters/avatar3.png" alt="">
+							</div>
+							<div class="client-meta">
+								<h3>Jacob Sikim <span>Local shop owner</span></h3>
+								<p class="testimonial-body">
+									" Sed ut perspiciatis unde omnis iste natus error veritatis et  quasi architecto beatae vitae dict eaque ipsa quae ab illo inventore Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium "
+								</p>
+								<div class="last-icon">
+									<i class="fas fa-quote-right"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end testimonail-section -->
+
+	<!-- logo carousel -->
+	<div class="logo-carousel-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="logo-carousel-inner">
+						<div class="single-logo-item">
+							<img src="assets/img/company-logos/1.png" alt="">
+						</div>
+						<div class="single-logo-item">
+							<img src="assets/img/company-logos/2.png" alt="">
+						</div>
+						<div class="single-logo-item">
+							<img src="assets/img/company-logos/3.png" alt="">
+						</div>
+						<div class="single-logo-item">
+							<img src="assets/img/company-logos/4.png" alt="">
+						</div>
+						<div class="single-logo-item">
+							<img src="assets/img/company-logos/5.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end logo carousel -->
+
+<!-- footer -->
+	<div class="footer-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+                    <div class="footer-logo">
+                        <a href="#"><img src="assets/img/logo-footer.png" style="width: 125px;height: 80px;margin-top: -100px;"></a>
+                    </div>
+                </div>
+				<div class="col-lg-3 col-md-6">
+					<div class="footer-box about-widget">
+						<h2 class="widget-title">About us</h2>
+						<p>I am Vijay Pujare. Res. Nadan, Devgad (Sindhudurg, Maharashtra) has been doing mango business for the last 13 years. I am working to carry on this business which was carried on from our forefathers.</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="footer-box get-in-touch">
+						<h2 class="widget-title">Get in Touch</h2>
+						<ul>
+							<li>At.Post - Nadan, Tal-Devgad, Dist-Sindhudurg, Maharashtra, 416805</li>
+							<li> siddheshpujare13@gmail.com</li>
+							<li>+91 8010325502</li>
+							<li>+91 8080701543</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="footer-box pages">
+						<h2 class="widget-title">Pages</h2>
+						<ul>
+							<li><a href="index_2.html">Home</a></li>
+							<li><a href="what we provide.html">What We Provide</a></li>
+							<li><a href="gallery.html">Gallery</a></li>
+							<li><a href="about.html">About Us</a></li>
+							<li><a href="contact.html">Contact</a></li>
+							<li><a href="how can order.html">How Can Order</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="footer-box subscribe">
+						<h2 class="widget-title">subscribe</h2>
+						<p>Subscribe to our mailing list to get the latest updates.</p>
+						<form action="https://formspree.io/f/xpwodnnv" method="POST">
+							<input type="email" placeholder="Email">
+							<button type="submit"><i class="fas fa-paper-plane"></i></button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end footer -->
+	
+	<!-- copyright -->
+	<div class="copyright">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-12">
+					<p>Copyrights &copy; 2019 - <a href="https://wolfox.in/">Wolfox Services Pvt Ltd</a>,  All Rights Reserved.<br>
+						Distributed By - <a href="https://wolfox.in/">Sidhi Mangoes	</a>
+					</p>
+				</div>
+				<div class="col-lg-6 text-right col-md-12">
+					<div class="social-icons">
+						<ul>
+							<li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+							<li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+							<li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+							<li><a href="#" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+							<li><a href="#" target="_blank"><i class="fab fa-dribbble"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end copyright -->
+	
+	<!-- jquery -->
+	<script src="assets/js/jquery-1.11.3.min.js"></script>
+	<!-- bootstrap -->
+	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+	<!-- count down -->
+	<script src="assets/js/jquery.countdown.js"></script>
+	<!-- isotope -->
+	<script src="assets/js/jquery.isotope-3.0.6.min.js"></script>
+	<!-- waypoints -->
+	<script src="assets/js/waypoints.js"></script>
+	<!-- owl carousel -->
+	<script src="assets/js/owl.carousel.min.js"></script>
+	<!-- magnific popup -->
+	<script src="assets/js/jquery.magnific-popup.min.js"></script>
+	<!-- mean menu -->
+	<script src="assets/js/jquery.meanmenu.min.js"></script>
+	<!-- sticker js -->
+	<script src="assets/js/sticker.js"></script>
+	<!-- main js -->
+	<script src="assets/js/main.js"></script>
+
+</body>
+</html>
